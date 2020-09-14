@@ -1,5 +1,5 @@
-import renderLayout from './layout';
-import renderHome from './home';
+import renderLayout from './outputs';
+import renderHome from './landingpage';
 
 import './resources/style.css'
 
