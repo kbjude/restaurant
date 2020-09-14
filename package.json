@@ -24,6 +24,7 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
+    "chokidar": "^3.4.2",
     "lodash": "^4.17.20"
   }
 }

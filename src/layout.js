@@ -1,4 +1,5 @@
-function displaylayout = () => {
+import changeDom from './helpers';
+const displaylayout = () => {
     const content = document.getElementById('content');
   }
 
