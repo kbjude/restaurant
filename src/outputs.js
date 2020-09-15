@@ -10,7 +10,8 @@ const displaylayout = () => {
     const middlesection = changeDom.createHtmlElement({tag: 'div', parentElement: content, arrayClassName: ['middlesection','d-flex']});
     const lowersection = changeDom.createHtmlElement({tag: 'div', parentElement: content, arrayClassName: ['lowersection']});
     const footersection = changeDom.createHtmlElement({tag: 'div', parentElement: content, arrayClassName: ['footersection']});
-    const navlist = changeDom.createHtmlElement({tag: 'ul', parentElement: navbar, arrayClassName: ['navlist'] })
+    const navlist = changeDom.createHtmlElement({tag: 'ul', parentElement: navbar, arrayClassName: ['navlist'] });
+    
     changeDom.createHtmlElement({ 
       tag: 'li', parentElement: navlist, elementid: 'Home', text: 'Home',
     })
