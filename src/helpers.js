@@ -20,16 +20,16 @@ const changeDom = (() => {
       return img;
     };
   
-    const createElement = ({
-      tag, parentElement, arrayClassNames = [], newId = '', text = '',
+    const createHtmlElement = ({
+      tag, parentElement, classNames = [], elemId = '', text = '',
     }) => {
       const newElement = document.createElement(tag);
   
-      if (arrayClassNames !== []) {
-        addClasses(newElement, arrayClassNames);
+      if (classNames !== []) {
+        addClasses(newElement, classNames);
       }
-      if (newId !== '') {
-        addId(newElement, newId);
+      if (elemId !== '') {
+        addId(newElement, elemId);
       }
       if (text !== '') {
         newElement.innerHTML = text;
