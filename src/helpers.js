@@ -41,7 +41,7 @@ const changeDom = (() => {
     return {
       createHtmlElement, createImage,
     };
-  })();
+})();
   
   
   export default changeDom;
