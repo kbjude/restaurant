@@ -1,5 +1,5 @@
 import displaylayout from './layout';
-// import renderHome from './landingpage';
+// import displaylandingpage from './landingpage';
 
 import './resources/style.css'
 
