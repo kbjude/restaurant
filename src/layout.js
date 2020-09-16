@@ -2,12 +2,11 @@ import changeDom from './helpers';
 import yummypizza from './resources/images/yummy.jpeg';
 import yummychicken from './resources/images/yummy4.jpeg';
 import background from './resources/images/site11.jpg';
-//import { head } from 'lodash';
 
 
 const displaylayout = () => {
     const content = document.getElementById('content');
-
+    const yummypizza =changeDom.createImage(yummypizza, 'yummy', [yummy-pizza])
     const header = changeDom.createHtmlElement({tag: 'header', parentElement: content, classNames: ['header']});
     const navbar = changeDom.createHtmlElement({tag: 'nav', parentElement: header, classNames: ['navbar']})
     const mainsection = changeDom.createHtmlElement({tag: 'div', parentElement: content, classNames: ['mainsection']});
