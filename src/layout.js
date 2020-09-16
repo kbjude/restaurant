@@ -1,7 +1,7 @@
 import changeDom from './helpers';
-import yummypizza from './resources/images/yummy.jpeg';
-import yummychicken from './resources/images/yummychicken.jpeg';
-import background from './resources/images/site11.jpg';
+import yummypizza from './resources/images/yummy.png';
+import yummychicken from './resources/images/yummychicken.png';
+import background from './resources/images/background.png';
 
 
 const displaylayout = () => {
@@ -18,16 +18,20 @@ const displaylayout = () => {
     const navlist = changeDom.createHtmlElement({tag: 'ul', parentElement: navbar, classNames: ['navlist'] });
     
     changeDom.createHtmlElement({ 
-      tag: 'li', parentElement: navlist, elemId: 'Home', text: 'Home',
-    })
+      tag: 'li', parentElement: navlist, elemId: 'Home', text: 'Homekdkd',
+    });
 
     changeDom.createHtmlElement({ 
       tag: 'li', parentElement: navlist, elemId: 'Menu', text: 'Menu',
-    })
+    });
 
     changeDom.createHtmlElement({ 
       tag: 'li', parentElement: navlist, elemId: 'Contact', text: 'Contact',
-    })
-}
+    });
+
+    mainsection.appendChild(background);
+    middlesection.appendChild(yummypizza);
+    lowersection.appendChild(yummychicken)
+};
 
   export default displaylayout;
