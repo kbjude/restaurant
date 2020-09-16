@@ -4,4 +4,4 @@ import displaylayout from './layout';
 import './resources/style.css'
 
 displaylayout();
-// renderHome();
+// displaylandingpage();
