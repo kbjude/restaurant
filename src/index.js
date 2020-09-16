@@ -1,7 +1,7 @@
-import renderLayout from './outputs';
-import renderHome from './landingpage';
+import displaylayout from './layout';
+// import renderHome from './landingpage';
 
 import './resources/style.css'
 
-renderLayout();
-renderHome();
+displaylayout();
+// renderHome();
