@@ -8,19 +8,19 @@ const changeDom = (() => {
         element.id = elemId;
       };
     
-    const createImage = (source, alt, arrayClassNames = []) => {
+    const createImage = (source, alt, classNames = []) => {
       const img = new Image();
       img.src = source;
       img.alt = alt;
   
-      if (arrayClassNames !== []) {
-        addClasses(img, arrayClassNames);
+      if (classNames !== []) {
+        addClasses(img, classNames);
       }
   
       return img;
     };
   
-    const createHtmlElement = ({
+    const createElement = ({
       tag, parentElement, arrayClassNames = [], newId = '', text = '',
     }) => {
       const newElement = document.createElement(tag);

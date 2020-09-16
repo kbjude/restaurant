@@ -4,23 +4,23 @@ import changeDom from './helpers';
 
 const displaylayout = () => {
     const content = document.getElementById('content');
-    const header = changeDom.createHtmlElement({tag: 'header', parentElement: content, classNames: ['header']});
-    const navbar = changeDom.createHtmlElement({tag: 'nav', parentElement: header, classNames: ['navbar']})
-    const mainsection = changeDom.createHtmlElement({tag: 'div', parentElement: content, classNames: ['mainsection']});
-    const middlesection = changeDom.createHtmlElement({tag: 'div', parentElement: content, classNames: ['middlesection','d-flex']});
-    const lowersection = changeDom.createHtmlElement({tag: 'div', parentElement: content, classNames: ['lowersection']});
-    const footersection = changeDom.createHtmlElement({tag: 'div', parentElement: content, classNames: ['footersection']});
-    const navlist = changeDom.createHtmlElement({tag: 'ul', parentElement: navbar, classNames: ['navlist'] });
+    const header = changeDom.createElement({tag: 'header', parentElement: content, classNames: ['header']});
+    const navbar = changeDom.createElement({tag: 'nav', parentElement: header, classNames: ['navbar']})
+    const mainsection = changeDom.createElement({tag: 'div', parentElement: content, classNames: ['mainsection']});
+    const middlesection = changeDom.createElement({tag: 'div', parentElement: content, classNames: ['middlesection','d-flex']});
+    const lowersection = changeDom.createElement({tag: 'div', parentElement: content, classNames: ['lowersection']});
+    const footersection = changeDom.createElement({tag: 'div', parentElement: content, classNames: ['footersection']});
+    const navlist = changeDom.createElement({tag: 'ul', parentElement: navbar, classNames: ['navlist'] });
     
-    changeDom.createHtmlElement({ 
+    changeDom.createElement({ 
       tag: 'li', parentElement: navlist, elemId: 'Home', text: 'Home',
     })
 
-    changeDom.createHtmlElement({ 
+    changeDom.createElement({ 
       tag: 'li', parentElement: navlist, elemId: 'Menu', text: 'Menu',
     })
 
-    changeDom.createHtmlElement({ 
+    changeDom.createElement({ 
       tag: 'li', parentElement: navlist, elemId: 'Contact', text: 'Contact',
     })
 }
