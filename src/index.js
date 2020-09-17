@@ -1,7 +1,7 @@
 import displaylayout from './layout';
 // import displaylandingpage from './landingpage';
 
-import './resources/style.css'
+import './style.css'
 
 displaylayout();
 // displaylandingpage();
