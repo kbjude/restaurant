@@ -29,11 +29,9 @@ const displayLayout = () => {
       tag: 'li', parentElement: navlist, elemId: 'Contact', text: 'Contact',
     });
 
-      
       mainSection.appendChild(backGround);
       middleSection.appendChild(yummyPizza);
       lowerSection.appendChild(yummyChicken)
-    
 };
 
   export default displayLayout;
