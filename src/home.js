@@ -19,6 +19,7 @@ const home = () => {
     container.innerHTML = '';
     container.appendChild(headerDiv);
     headerDiv.appendChild(header);
+    headerDiv.appendChild(logoImg);
     container.appendChild(img);
 }
 
