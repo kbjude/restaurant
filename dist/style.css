@@ -27,3 +27,8 @@
     width: 5%;
     height: 5%;
 }
+
+.logoContent {
+    display: flex;
+    justify-content: space-between;
+}
