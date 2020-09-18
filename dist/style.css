@@ -1,9 +1,11 @@
 .men-button {
     width: 250px;
+    height: 40px;
+    border-radius: 15px;
 }
 
 .nav2 {
     display: flex;
     justify-content: space-around;
-    margin-left: 20%;
+    margin-left: 40% 20%;
 }

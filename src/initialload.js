@@ -18,6 +18,7 @@ const initialLoad = () => {
     btnContact.innerHTML = "Contact";
 
     const btnMenu = document.createElement('button');
+    btnMenu.className = 'men-button';
     btnMenu.innerHTML = "Menu";
     btnMenu.onclick = () => {
         btnMenu.dispatchEvent(new Event('tabMenu', { bubbles: true }));
@@ -26,6 +27,7 @@ const initialLoad = () => {
     };
 
     const btnHome = document.createElement('button');
+    btnHome.className = 'men-button';
     btnHome.innerHTML = "Home";
     btnHome.onclick = () => {
         btnHome.dispatchEvent(new Event('tabHome', { bubbles: true }));
