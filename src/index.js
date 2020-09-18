@@ -1,7 +1,3 @@
-import displaylayout from './layout';
-import displaylandingpage from './landingpage';
+import initialLoad from "./initialload";
 
-import './style.css'
-
-displaylayout();
-displaylandingpage();
+window.onload = initialLoad;
