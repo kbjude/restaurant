@@ -7,7 +7,7 @@ const initialLoad = () => {
     container.id = 'container';
 
     const nav = document.createElement('div');
-    nav.className = 'nav';
+    nav.className = 'nav2';
     const btnContact = document.createElement('button');
     btnContact.className = 'men-button';
     btnContact.onclick = () => {
