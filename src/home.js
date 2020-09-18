@@ -4,6 +4,7 @@ const home = () => {
     const container = document.getElementById('container');
 
     const headerDiv = document.createElement('div')
+    headerDiv.className = "header-div";
     const header = document.createElement('h1');
     header.innerHTML = "Welcome to The Food Hub";
     header.className = "heading"
@@ -18,8 +19,8 @@ const home = () => {
 
     container.innerHTML = '';
     container.appendChild(headerDiv);
-    headerDiv.appendChild(header);
     headerDiv.appendChild(logoImg);
+    headerDiv.appendChild(header);
     container.appendChild(img);
 }
 

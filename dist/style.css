@@ -18,3 +18,12 @@
 .heading {
     margin-left: 10%;
 }
+
+.header-div {
+    display: flex;
+}
+
+.logo {
+    width: 5%;
+    height: 5%;
+}
