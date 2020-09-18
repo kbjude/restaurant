@@ -7,7 +7,9 @@ const initialLoad = () => {
     container.id = 'container';
 
     const nav = document.createElement('div');
+    nav.className = 'nav';
     const btnContact = document.createElement('button');
+    btnContact.className = 'men-button';
     btnContact.onclick = () => {
         btnContact.dispatchEvent(new Event('tabContact', { bubbles: true }));
         btnContact.style.background = "blue";
