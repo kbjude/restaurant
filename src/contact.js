@@ -5,7 +5,8 @@ const contact = () => {
     const logoContent = document.createElement('div');
     logoContent.className = "logo-content";
     const contactContent = document.createElement('div');
-    contactContent.innerHTML = "These are our contacts: Phone Number: 07038920832 Email: kbjude@gmail.com";
+    contactContent.innerHTML = "Phone Number: 07038920832";
+
 
     const contactLogo = document.createElement('img');
     contactLogo.src = logo;

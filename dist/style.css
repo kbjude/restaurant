@@ -31,4 +31,7 @@
 .logo-content {
     display: flex;
     justify-content: space-between;
+    width: 50%;
+    margin: 5% 20%;
+    align-content: center;
 }
