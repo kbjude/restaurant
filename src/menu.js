@@ -7,6 +7,8 @@ const menu = () => {
     menuDiv.innerHTML = "Coming Soon";
     const container = document.getElementById('container');
 
+    const itemsContainer = document.createElement('div');
+    const menuImage = document.createElement('img');
     
 
     container.innerHTML = '';

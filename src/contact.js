@@ -18,10 +18,6 @@ const contact = () => {
     list2.innerHTML = "Website: WWW.foodhub.com";
     list2.className = "listitem";
 
-    // contactContent.innerHTML = "Phone Number: 07038920832";
-
-
-
     const contactLogo = document.createElement('img');
     contactLogo.src = logo;
     contactLogo.className = "contactLogo";
