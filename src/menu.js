@@ -2,6 +2,8 @@ import menuItem1 from './images/yummy.png';
 import menuItem2 from './images/yummychicken.png';
 import menuItem3 from './images/salad.png';
 import menuItem4 from './images/dinnertables.jpg';
+import menuItem5 from './images/superg.jpg';
+import menuItem6 from './images/chicken.jpg';
 
 const menu = () => {
     const container = document.getElementById('container');
@@ -45,11 +47,11 @@ const menu = () => {
 
     const menuImage4 = document.createElement('img');
     menuImage4.className = "menu-image";
-    menuImage4.src = menuItem4;
+    menuImage4.src = menuItem5;
 
     const menuImage5 = document.createElement('img');
     menuImage5.className = "menu-image";
-    menuImage5.src = menuItem4;
+    menuImage5.src = menuItem6;
 
     container.innerHTML = '';
     container.appendChild(menuDiv);
