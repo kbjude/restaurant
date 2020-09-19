@@ -12,11 +12,10 @@ const menu = () => {
     const itemsContainer1 = document.createElement('div');
     const desccontainer2 = document.createElement('div');
     desccontainer2.className = "desc-container";
+    itemsContainer.className ="images-container";
 
     const container = document.getElementById('container');
 
-
-    itemsContainer.className ="images-container";
     const menuImage = document.createElement('img');
     menuImage.className = "menu-image";
     menuImage.src = menuItem1;
@@ -38,6 +37,19 @@ const menu = () => {
     const mealdesc3 = document.createElement('p');
     mealdesc3.innerText = "Three meal course Buffet";
 
+
+    const menuImage3 = document.createElement('img');
+    menuImage.className = "menu-image";
+    menuImage.src = menuItem3;
+
+    const menuImage4 = document.createElement('img');
+    menuImage1.className = "menu-image";
+    menuImage1.src = menuItem4;
+
+    const menuImage5 = document.createElement('img');
+    menuImage1.className = "menu-image";
+    menuImage1.src = menuItem4;
+
     container.innerHTML = '';
     container.appendChild(menuDiv);
     menuDiv.appendChild(itemsContainer);
@@ -50,6 +62,9 @@ const menu = () => {
     desccontainer1.appendChild(mealdesc3);
 
     menuDiv.appendChild(itemsContainer1);
+    itemsContainer1.appendChild(menuImage3);
+    itemsContainer1.appendChild(menuImage4);
+    itemsContainer1.appendChild(menuImage5);
     menuDiv.appendChild(desccontainer2);
 
 }
