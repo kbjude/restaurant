@@ -5,6 +5,7 @@ import menuItem4 from './images/dinnertables.jpg';
 
 const menu = () => {
     const menuDiv = document.createElement('div');
+    menuDiv.className = "menu-div";
     const itemsContainer = document.createElement('div');
     const desccontainer1 = document.createElement('div');
     desccontainer1.className = "desc-container";
@@ -32,7 +33,7 @@ const menu = () => {
     mealdesc2.innerText = "Fresh Juice, Beef & Potato";
 
     const mealdesc3 = document.createElement('p');
-    mealdesc3.innerText = "Buffet";
+    mealdesc3.innerText = "Three meal course Buffet";
 
     container.innerHTML = '';
     container.appendChild(menuDiv);

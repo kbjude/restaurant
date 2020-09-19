@@ -1,3 +1,9 @@
+.menu-div {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
 .men-button {
     width: 250px;
     height: 40px;
@@ -52,4 +58,9 @@
 .menu-image {
     width: 30%;
     border-radius: 70%;
+}
+
+.desc-container {
+    display: flex;
+    justify-content: space-around;
 }
