@@ -15,6 +15,7 @@ const menu = () => {
     const desccontainer2 = document.createElement('div');
     desccontainer2.className = "desc-container";
     itemsContainer.className ="images-container";
+    itemsContainer1.className ="images-container";
 
     const menuImage = document.createElement('img');
     menuImage.className = "menu-image";
@@ -72,6 +73,5 @@ const menu = () => {
     desccontainer1.appendChild(mealdesc1);
     desccontainer1.appendChild(mealdesc2);
     desccontainer1.appendChild(mealdesc3);
-
 }
 export default menu
