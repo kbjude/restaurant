@@ -4,6 +4,8 @@ import menuItem3 from './images/salad.png';
 import menuItem4 from './images/dinnertables.jpg';
 
 const menu = () => {
+    const container = document.getElementById('container');
+
     const menuDiv = document.createElement('div');
     menuDiv.className = "menu-div";
     const itemsContainer = document.createElement('div');
@@ -13,8 +15,6 @@ const menu = () => {
     const desccontainer2 = document.createElement('div');
     desccontainer2.className = "desc-container";
     itemsContainer.className ="images-container";
-
-    const container = document.getElementById('container');
 
     const menuImage = document.createElement('img');
     menuImage.className = "menu-image";
@@ -39,16 +39,16 @@ const menu = () => {
 
 
     const menuImage3 = document.createElement('img');
-    menuImage.className = "menu-image";
-    menuImage.src = menuItem3;
+    menuImage3.className = "menu-image";
+    menuImage3.src = menuItem3;
 
     const menuImage4 = document.createElement('img');
-    menuImage1.className = "menu-image";
-    menuImage1.src = menuItem4;
+    menuImage4.className = "menu-image";
+    menuImage4.src = menuItem4;
 
     const menuImage5 = document.createElement('img');
-    menuImage1.className = "menu-image";
-    menuImage1.src = menuItem4;
+    menuImage5.className = "menu-image";
+    menuImage5.src = menuItem4;
 
     container.innerHTML = '';
     container.appendChild(menuDiv);
@@ -72,5 +72,6 @@ const menu = () => {
     desccontainer1.appendChild(mealdesc1);
     desccontainer1.appendChild(mealdesc2);
     desccontainer1.appendChild(mealdesc3);
+
 }
 export default menu
