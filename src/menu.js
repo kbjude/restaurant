@@ -9,6 +9,7 @@ const menu = () => {
     const container = document.getElementById('container');
 
     const itemsContainer = document.createElement('div');
+    itemsContainer.className ="images-container";
     const menuImage = document.createElement('img');
     menuImage.className = "menu-image";
     menuImage.src = menuItem1;
