@@ -5,6 +5,7 @@ const contact = () => {
     const logoContent = document.createElement('div');
     logoContent.className = "logo-content";
     const contactContent = document.createElement('div');
+    const list = document.createElement('ul');
     contactContent.innerHTML = "Phone Number: 07038920832";
 
 
