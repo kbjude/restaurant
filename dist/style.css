@@ -28,7 +28,7 @@
     height: 5%;
 }
 
-.logoContent {
+.logo-content {
     display: flex;
     justify-content: space-between;
 }
