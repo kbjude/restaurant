@@ -7,12 +7,16 @@ const contact = () => {
     const contactContent = document.createElement('div');
     contactContent.innerHTML = "OUR CONTACTS"
     const unOrderedList = document.createElement('ul');
+    unOrderedList.className = "list";
     const list = document.createElement('li');
     list.innerHTML = "Phone Contact: 0701-042-287, 0712-042-287";
+    list.className = "listitem";
     const list1 = document.createElement('li');
     list1.innerHTML = "Email: foodhub@foodeats.org";
+    list1.className = "listitem";
     const list2 = document.createElement('li');
     list2.innerHTML = "Website: WWW.foodhub.com";
+    list2.className = "listitem";
 
     // contactContent.innerHTML = "Phone Number: 07038920832";
 
