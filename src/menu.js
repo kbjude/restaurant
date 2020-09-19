@@ -41,6 +41,16 @@ const menu = () => {
     mealdesc3.innerText = "Three meal course Buffet";
 
 
+    const mealdesc4 = document.createElement('p');
+    mealdesc4.innerText = "Fresh Salad"
+
+    const mealdesc5 = document.createElement('p');
+    mealdesc5.innerText = "Spags and Chicken";
+
+    const mealdesc6 = document.createElement('p');
+    mealdesc6.innerText = "Deep fried Chicken";
+
+
     const menuImage3 = document.createElement('img');
     menuImage3.className = "menu-image";
     menuImage3.src = menuItem3;
@@ -72,8 +82,8 @@ const menu = () => {
     itemsContainer1.appendChild(menuImage5);
 
     menuDiv.appendChild(desccontainer2);
-    desccontainer1.appendChild(mealdesc1);
-    desccontainer1.appendChild(mealdesc2);
-    desccontainer1.appendChild(mealdesc3);
+    desccontainer2.appendChild(mealdesc4);
+    desccontainer2.appendChild(mealdesc5);
+    desccontainer2.appendChild(mealdesc6);
 }
 export default menu
