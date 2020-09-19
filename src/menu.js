@@ -9,6 +9,9 @@ const menu = () => {
     const itemsContainer = document.createElement('div');
     const desccontainer1 = document.createElement('div');
     desccontainer1.className = "desc-container";
+    const itemsContainer1 = document.createElement('div');
+    const desccontainer2 = document.createElement('div');
+    desccontainer2.className = "desc-container";
 
     const container = document.getElementById('container');
 
@@ -45,6 +48,10 @@ const menu = () => {
     desccontainer1.appendChild(mealdesc1);
     desccontainer1.appendChild(mealdesc2);
     desccontainer1.appendChild(mealdesc3);
+
+    menuDiv.appendChild(itemsContainer1);
+    menuDiv.appendChild(desccontainer2);
+
 }
 
 export default menu
