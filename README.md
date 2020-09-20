@@ -29,7 +29,7 @@ Some of the features of this project include but not limited to:
 
 ### Live Version
 
-- [ Netlify Live Link](jude-restaurant.netlify.app)
+- [ Netlify Live Link](https://jude-restaurant.netlify.app/)
 
 ### Technologies Used
 
