@@ -65,7 +65,7 @@ const menu = () => {
 
     container.innerHTML = '';
     container.appendChild(menuDiv);
-    
+
     menuDiv.appendChild(itemsContainer);
     itemsContainer.appendChild(menuImage);
     itemsContainer.appendChild(menuImage1);
@@ -85,5 +85,5 @@ const menu = () => {
     desccontainer2.appendChild(mealdesc4);
     desccontainer2.appendChild(mealdesc5);
     desccontainer2.appendChild(mealdesc6);
-}
-export default menu
+};
+export default menu;

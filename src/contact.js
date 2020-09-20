@@ -5,7 +5,7 @@ const contact = () => {
     const logoContent = document.createElement('div');
     logoContent.className = "logo-content";
     const contactContent = document.createElement('div');
-    contactContent.innerHTML = "OUR CONTACTS"
+    contactContent.innerHTML = 'OUR CONTACTS'
     const unOrderedList = document.createElement('ul');
     unOrderedList.className = "list";
     const list = document.createElement('li');
