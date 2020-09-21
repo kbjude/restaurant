@@ -1,0 +1,66 @@
+.menu-div {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    }
+
+.men-button {
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40% 20%;
+}
+
+.background-img {
+    width: 70%;
+    margin-left: 10%;
+}
+
+.heading {
+    margin-left: 10%;
+}
+
+.header-div {
+    display: flex;
+}
+
+.logo {
+    width: 5%;
+    height: 5%;
+}
+
+.logo-content {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 5% 20%;
+    align-content: center;
+}
+
+.list {
+    margin-top: 10%;
+}
+
+.listitem {
+    margin-top: 15px;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-image {
+    width: 30%;
+    border-radius: 70%;
+}
+
+.desc-container {
+    display: flex;
+    justify-content: space-around;
+}
