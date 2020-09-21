@@ -8,13 +8,13 @@ const onload = () => {
   home();
   const mainDiv = document.getElementById('content');
 
-  mainDiv.addEventListener('tabContact', (e) => {
+  mainDiv.addEventListener('tabContact', () => {
     contact();
   });
-  mainDiv.addEventListener('tabMenu', (e) => {
+  mainDiv.addEventListener('tabMenu', () => {
     menu();
   });
-  mainDiv.addEventListener('tabHome', (e) => {
+  mainDiv.addEventListener('tabHome', () => {
     home();
   });
 };
