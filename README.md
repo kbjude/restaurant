@@ -20,6 +20,17 @@ This is a project aimed at selling to the users to the services offered at our r
 - Install webpack and set it using [this guide](https://webpack.js.org/guides/asset-management/#setup)
 - Test whether it is running well 
 
+#### Running the application on your local
+
+Run npm install
+
+npm run build
+Next set up the Webpack:
+
+npm start
+
+This will get you running
+
 ### Features
 Some of the features of this project include but not limited to:
 
