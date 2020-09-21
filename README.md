@@ -2,7 +2,7 @@
 
 ### Screenshots
 
-![Screenshot]()
+![Screenshot](https://github.com/kbjude/restaurant/blob/ft-restaurant-2/src/images/Screenshot%202020-09-20%20at%2018.08.50.png)
 
 ## About the Restaurant:
 This is a project aimed at selling to the users to the services offered at our restaurant called the Foodie Hub. The user should be able to type in the URL of the site hosted on netlify and get any information about the restaurant. 
